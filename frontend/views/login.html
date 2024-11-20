@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../css/output.css" rel="stylesheet">
+</head>
+<body class="bg-[#F9FDFF] overflow-hidden">
+    <section class="w-screen h-screen grid grid-cols-2 gap-16 px-24 py-16">
+        <div class="col-span-1 bg-[#0f1108] rounded-3xl relative">
+            <img src="../assets/illustration.svg" alt="student" class="absolute bottom-0 left-16">
+        </div>
+        <div class="col-span-1 w-full relative flex justify-center items-center">
+            <a href="./index.html" class="hover:underline absolute top-0 left-0">&lt; Go back</a>
+
+            <div class="w-[90%] flex flex-col justify-center items-center">
+                <p class="mb-10 font-bold text-2xl">Log In</p>
+
+                <div class="w-full space-y-3">
+                    <!-- Floating Input -->
+                    <div class="relative">
+                      <input type="email" id="hs-floating-input-email-value" class="peer p-4 block w-full bg-transparent border border-[#0f1108] focus:ring-0 focus:outline-none rounded-lg text-sm placeholder:text-transparent focus:border-[#ff6978] focus:ring-[#ff6978] disabled:opacity-50 disabled:pointer-events-none
+                      focus:pt-6
+                      focus:pb-2
+                      [&:not(:placeholder-shown)]:pt-6
+                      [&:not(:placeholder-shown)]:pb-2
+                      autofill:pt-6
+                      autofill:pb-2" placeholder="you@email.com" value="preline@site.com">
+                      <label for="hs-floating-input-email-value" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent  origin-[0_0] peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                        peer-focus:scale-90
+                        peer-focus:translate-x-0.5
+                        peer-focus:-translate-y-1.5
+                        peer-focus:text-gray-500
+                        peer-[:not(:placeholder-shown)]:scale-90
+                        peer-[:not(:placeholder-shown)]:translate-x-0.5
+                        peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                        peer-[:not(:placeholder-shown)]:text-gray-500">Email</label>
+                    </div>
+                    <!-- End Floating Input -->
+                  
+                    <!-- Floating Input -->
+                    <div class="relative">
+                      <input type="password" id="hs-floating-input-passowrd-value" class="peer p-4 block w-full placeholder:text-transparent bg-transparent border border-[#0f1108] focus:ring-0 focus:outline-none rounded-lg text-sm focus:border-[#ff6978] focus:ring-[#ff6978] disabled:opacity-50 disabled:pointer-events-none
+                      focus:pt-6
+                      focus:pb-2
+                      [&:not(:placeholder-shown)]:pt-6
+                      [&:not(:placeholder-shown)]:pb-2
+                      autofill:pt-6
+                      autofill:pb-2" placeholder="********" value="1234567890">
+                      <label for="hs-floating-input-passowrd-value" class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent  origin-[0_0] peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                        peer-focus:scale-90
+                        peer-focus:translate-x-0.5
+                        peer-focus:-translate-y-1.5
+                        peer-focus:text-gray-500
+                        peer-[:not(:placeholder-shown)]:scale-90
+                        peer-[:not(:placeholder-shown)]:translate-x-0.5
+                        peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                        peer-[:not(:placeholder-shown)]:text-gray-500">Password</label>
+                    </div>
+                    <!-- End Floating Input -->
+                </div>
+
+                <div class="mt-10 space-y-4">
+                    <p class="text-sm text-[#0f1108] ">By continuing, you agree to our <span class="text-[#ff6978]">Terms of Service</span> and <span class="text-[#ff6978]">Privacy Policy</span>.</p>
+                    <button type="button" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-[#ff6978] text-white hover:bg-[#0f1108] focus:outline-none focus:bg-[#0f1108] disabled:opacity-50 disabled:pointer-events-none">
+                        Button
+                    </button>
+                    <a href="signup.html" class="text-[#ff6978] underline block">Don’t have an account? Sign up here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
